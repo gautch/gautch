@@ -1,0 +1,43 @@
+/* type */
+* {
+font-family: Courier;
+font-style: normal;
+font-weight: normal;
+}
+
+
+h1 {
+font-weight: bold;
+font-size: 42px;
+line-height: 48px;
+text-align: center;
+color: #000000;
+}
+
+h2 {
+font-weight: bold;
+font-size: 20px;
+line-height: 100%;
+color: #000000;
+}
+
+p{
+font-weight: normal;
+font-size: 16px;
+line-height: 120%;
+color: rgba(31, 32, 65, 0.75);
+/* margin-bottom: 2rem; */
+}
+
+a:link {
+  color: #2F80ED;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: hotpink;
+}
+a:active {
+  color: #2F80ED;
+}

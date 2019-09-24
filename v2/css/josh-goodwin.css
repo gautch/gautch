@@ -1,0 +1,83 @@
+body {background: #EDEDED;}
+
+/* container */
+.card {
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+padding: 16px;
+background: #F5F5F5;
+box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.06446px rgba(210, 210, 210, 0.215086), 0px 8.30414px 9.09459px rgba(210, 210, 210, 0.181766), 0px 12.5811px 15.0936px rgba(210, 210, 210, 0.156585), 0px 19.0891px 24.8663px rgba(210, 210, 210, 0.133415), 0px 31.3914px 43.459px rgba(210, 210, 210, 0.108234), 0px 67px 94px rgba(210, 210, 210, 0.0749141), -2px -4px 4px #F7F7F7;
+border-radius: 4px;
+}
+
+.topnav {
+height: 70px;
+top: 0px;
+/* padding:8px 0px; */
+background: #FFFFFF;
+box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.06446px rgba(210, 210, 210, 0.215086), 0px 8.30414px 9.09459px rgba(210, 210, 210, 0.181766), 0px 12.5811px 15.0936px rgba(210, 210, 210, 0.156585), 0px 19.0891px 24.8663px rgba(210, 210, 210, 0.133415), 0px 31.3914px 43.459px rgba(210, 210, 210, 0.108234), 0px 67px 94px rgba(210, 210, 210, 0.0749141), -2px -4px 4px #F7F7F7;
+}
+
+/* Buttons */
+
+.btn {
+margin: 16px 0px 16px 0px;
+padding:16px;
+box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.06446px rgba(210, 210, 210, 0.215086), 0px 8.30414px 9.09459px rgba(210, 210, 210, 0.181766), 0px 12.5811px 15.0936px rgba(210, 210, 210, 0.156585), 0px 19.0891px 24.8663px rgba(210, 210, 210, 0.133415), 0px 31.3914px 43.459px rgba(210, 210, 210, 0.108234), 0px 67px 94px rgba(210, 210, 210, 0.0749141), -2px -4px 4px #F7F7F7;
+border-radius: 5px;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+
+border: none;
+padding: 15px 32px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+}
+.btn-disabled {
+    cursor: progress;
+    color:white !important;
+    background: #a7a7a7 !important;
+    box-shadow: none;
+}
+.btn-main {
+color:white !important;
+background: #000000;
+}
+
+.btn-red {
+color:white !important;
+background: #ED2F2F;
+}
+
+.btn-white {
+color:black !important;
+background: #FFFFFF;
+}
+
+.btn-mini {
+padding:16px;
+font-size: 13px;
+line-height: 50%;
+}
+
+.btn-header {
+
+}
+
+.progress-bar {
+				width: 100%;
+				background-color: #DEDEDE;
+				border-radius: 3px;
+			}
+			
+			.progress-bar-fill {
+				display: block;
+				height: 5px;
+				background-color: #000;
+				border-radius: 3px;
+				transition: width 500ms ease-in-out;
+			}
