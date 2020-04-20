@@ -12,6 +12,7 @@ font-size: 42px;
 line-height: 48px;
 text-align: center;
 color: #000000;
+margin-top: 0px;
 }
 
 h2 {
@@ -19,6 +20,7 @@ font-weight: bold;
 font-size: 20px;
 line-height: 100%;
 color: #000000;
+margin-top: 0px;
 }
 
 p{
@@ -26,7 +28,7 @@ font-weight: normal;
 font-size: 16px;
 line-height: 120%;
 color: rgba(31, 32, 65, 0.75);
-/* margin-bottom: 2rem; */
+margin-top: 0px;
 }
 
 a:link {
@@ -41,3 +43,24 @@ a:hover {
 a:active {
   color: #2F80ED;
 }
+
+  /* CSS by GenerateCSS.com */ 
+  ul 
+  { 
+ list-style-type: none;
+     padding-left: 0px;
+
+  } 
+ li 
+ { 
+     font-style: bold;
+     color: black;
+     border-bottom: 5px #E0E0E3;
+  }  
+
+  li p {
+      font-style: normal;
+      color:#a7a7a7;
+      margin-top: 0px;
+  }
+  
