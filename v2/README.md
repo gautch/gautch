@@ -2,6 +2,8 @@
 
 Portfolio site of Josh Goodwin
 
+You can view the Figma design here:
+
 
 # Credits
 
