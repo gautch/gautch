@@ -8,14 +8,21 @@ font-weight: normal;
 
 h1 {
 font-weight: bold;
-font-size: 42px;
-line-height: 48px;
-text-align: center;
+font-size: 30px;
+line-height: 32px;
 color: #000000;
 margin-top: 0px;
 }
 
 h2 {
+font-weight: bold;
+font-size: 24px;
+line-height: 100%;
+color: #000000;
+margin-top: 0px;
+}
+
+h3 {
 font-weight: bold;
 font-size: 20px;
 line-height: 100%;
@@ -31,17 +38,25 @@ color: rgba(31, 32, 65, 0.75);
 margin-top: 0px;
 }
 
+strong {
+    font-weight: bold;
+    }
+
 a:link {
-  color: #2F80ED;
+  color: #1F2041;
+  text-decoration: none;
 }
 a:visited {
-  color: green;
+  color: #3f3f3f;
+  text-decoration: none;
 }
 a:hover {
-  color: hotpink;
+  color: #1F2041;
+  text-decoration: none;
 }
 a:active {
-  color: #2F80ED;
+  color: #1F2041;
+  text-decoration: none;
 }
 
   /* CSS by GenerateCSS.com */ 

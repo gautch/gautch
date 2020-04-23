@@ -2,25 +2,28 @@ body {background: #EDEDED;}
 
 /* container */
 .card {
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-padding: 16px;
-background: #F5F5F5;
-box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.06446px rgba(210, 210, 210, 0.215086), 0px 8.30414px 9.09459px rgba(210, 210, 210, 0.181766), 0px 12.5811px 15.0936px rgba(210, 210, 210, 0.156585), 0px 19.0891px 24.8663px rgba(210, 210, 210, 0.133415), 0px 31.3914px 43.459px rgba(210, 210, 210, 0.108234), 0px 67px 94px rgba(210, 210, 210, 0.0749141), -2px -4px 4px #F7F7F7;
-border-radius: 4px;
-margin-bottom: 40px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    padding: 16px;
+    background: #F5F5F5;
+    box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.06446px rgba(210, 210, 210, 0.215086), 0px 8.30414px 9.09459px rgba(210, 210, 210, 0.181766), 0px 12.5811px 15.0936px rgba(210, 210, 210, 0.156585), 0px 19.0891px 24.8663px rgba(210, 210, 210, 0.133415), 0px 31.3914px 43.459px rgba(210, 210, 210, 0.108234), 0px 67px 94px rgba(210, 210, 210, 0.0749141), -2px -4px 4px #F7F7F7;
+    border-radius: 4px;
+    margin-bottom: 40px;
 }
 
 .topnav {
-height: 55px;
-top: 0px;
-/* padding:8px 0px; */
-background: #FFFFFF;
-box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.06446px rgba(210, 210, 210, 0.215086), 0px 8.30414px 9.09459px rgba(210, 210, 210, 0.181766), 0px 12.5811px 15.0936px rgba(210, 210, 210, 0.156585), 0px 19.0891px 24.8663px rgba(210, 210, 210, 0.133415), 0px 31.3914px 43.459px rgba(210, 210, 210, 0.108234), 0px 67px 94px rgba(210, 210, 210, 0.0749141), -2px -4px 4px #F7F7F7;
+    height: 55px;
+    top: 0px;
+    /* padding:8px 0px; */
+    background: #FFFFFF;
+    box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.06446px rgba(210, 210, 210, 0.215086), 0px 8.30414px 9.09459px rgba(210, 210, 210, 0.181766), 0px 12.5811px 15.0936px rgba(210, 210, 210, 0.156585), 0px 19.0891px 24.8663px rgba(210, 210, 210, 0.133415), 0px 31.3914px 43.459px rgba(210, 210, 210, 0.108234), 0px 67px 94px rgba(210, 210, 210, 0.0749141), -2px -4px 4px #F7F7F7;
 }
 
+.logo {
+    
+}
 .col-3.left {
     margin-top: 15px;
 }
@@ -36,7 +39,9 @@ box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.064
     width: 100%;
 }
 
-.row {margin-bottom: 32px;}
+.row {
+    margin-bottom: 32px;
+    }
 .col-4 {
     margin-bottom: 40px;
 }
@@ -44,18 +49,18 @@ box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.064
 /* Buttons */
 
 .btn {
-margin: 16px 0px 16px 0px;
-padding:16px;
-box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.06446px rgba(210, 210, 210, 0.215086), 0px 8.30414px 9.09459px rgba(210, 210, 210, 0.181766), 0px 12.5811px 15.0936px rgba(210, 210, 210, 0.156585), 0px 19.0891px 24.8663px rgba(210, 210, 210, 0.133415), 0px 31.3914px 43.459px rgba(210, 210, 210, 0.108234), 0px 67px 94px rgba(210, 210, 210, 0.0749141), -2px -4px 4px #F7F7F7;
-border-radius: 5px;
-font-size: 16px;
-line-height: 120%;
-text-align: center;
-border: none;
-padding: 15px 32px;
-text-decoration: none;
-display: inline-block;
-cursor: pointer;
+    margin: 16px 0px 16px 0px;
+    padding:16px;
+    box-shadow: 0px 2.394px 2.17819px rgba(210, 210, 210, 0.29), 0px 5.07757px 5.06446px rgba(210, 210, 210, 0.215086), 0px 8.30414px 9.09459px rgba(210, 210, 210, 0.181766), 0px 12.5811px 15.0936px rgba(210, 210, 210, 0.156585), 0px 19.0891px 24.8663px rgba(210, 210, 210, 0.133415), 0px 31.3914px 43.459px rgba(210, 210, 210, 0.108234), 0px 67px 94px rgba(210, 210, 210, 0.0749141), -2px -4px 4px #F7F7F7;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 .btn-disabled {
     cursor: progress;
@@ -64,31 +69,31 @@ cursor: pointer;
     box-shadow: none;
 }
 .btn-main {
-color:white !important;
-background: #000000;
+    color:white !important;
+    background: #000000;
 }
 
 .btn-red {
-color:white !important;
-background: #ED2F2F;
+    color:white !important;
+    background: #ED2F2F;
 }
 
 .btn-white {
-color:black !important;
-background: #FFFFFF;
+    color:black !important;
+    background: #FFFFFF;
 }
 
 .btn-mini {
-padding:16px;
-font-size: 13px;
-line-height: 50%;
+    padding:16px;
+    font-size: 13px;
+    line-height: 50%;
 }
 
 .btn-header {
-margin-top: 0px;
-padding:16px;
-font-size: 13px;
-line-height: 50%;
+    margin-top: 0px;
+    padding:16px;
+    font-size: 13px;
+    line-height: 50%;
 }
 
 .progress-bar {
@@ -107,15 +112,22 @@ line-height: 50%;
     transition: width 500ms ease-in-out;
 }
 
+.me {
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.1);
+    border-radius: 150px;
+    width: 223px;
+}
+
 
 .flag {
-    top: -169px;
+    top: -124px;
     position: relative;
     color: white;
     background: #2F80ED;
-box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.11);
-border-radius: 5px 50px 50px 5px;
-padding: 12px 20px 0px 18px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.11);
+    border-radius: 5px 50px 50px 5px;
+    padding: 12px 20px 0px 18px;
     width: fit-content;
     left: -25px;
     height: 35px;
@@ -124,7 +136,7 @@ padding: 12px 20px 0px 18px;
       background-image: url(../Images/HeaderImage-DR.png);
       background-repeat: no-repeat;
       background-size: contain;
-      padding-top: 175px;
+      padding-top: 130px;
 }
 .card.avenel {
       background-image: url(../Images/HeaderImage-Avanel.png);
@@ -133,35 +145,64 @@ padding: 12px 20px 0px 18px;
       padding-top: 30px;
 }
 
-.avenel h2 {
+
+.icons:first-child {
+border-right: 1px #a7a7a7 solid;
+margin-right: -1px;
+}
+.card .icongrid:first-child {
+border-bottom: 1px #a7a7a7 solid;
+margin-bottom: -1px;
+}
+
+.card .icongrid:last-child {
+margin-bottom: 0px;
+}
+
+#websitesbuilt {
+    padding-top: 8px;
+}
+
+ .icons img {
+    margin-bottom: 15px;    
+ }
+
+ .icons p:first-child {
+    color:red !important;
+ }
+.avenel h3 {
     color:white;
 }
 .avenel p {
     color:white;
 }
 
+.avenel .btn {
+    box-shadow: 0px 2.394px 2.17819px rgba(184, 81, 9, 0.29), 0px 5.07757px 5.06446px rgba(184, 81, 9, 0.215086), 0px 8.30414px 9.09459px rgba(184, 81, 9, 0.181766), 0px 12.5811px 15.0936px rgba(184, 81, 9, 0.156585), 0px 19.0891px 24.8663px rgba(184, 81, 9, 0.133415), 0px 31.3914px 43.459px rgba(184, 81, 9, 0.108234), 0px 67px 94px rgba(184, 81, 9, 0.0749141), -2px -4px 4px #F39F50;
+}
+
 .card.recroom {
-      background-image: url(../Images/HeaderImage-RecRoom.png);
-      background-repeat: no-repeat;
-      background-size: cover;
+    background-image: url(../Images/HeaderImage-RecRoom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 110px;
 }
-.recroom h2 {
+.recroom h3 {
     color:white;
 }
 .recroom p {
     color:white;
 }
 .card.amazon {
-      background-image: url(../Images/HeaderImage-AMZN.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-        padding-top: 165px;
+    background-image: url(../Images/HeaderImage-AMZN.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 165px;
 
 }
 .card.nok {
-      background-image: url(../Images/HeaderImage-nok.png);
-      background-repeat: no-repeat;
+    background-image: url(../Images/HeaderImage-nok.png);
+    background-repeat: no-repeat;
     background-size: contain;
     padding-top: 166px;
 }
@@ -171,29 +212,29 @@ blockquote {
 }
 .quotation{
     margin: 0 auto;
-  quotes: "\201C""\201D""\2018""\2019";
-  padding: 10px 20px;
-  line-height: 1.4;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
 }
 
 .quotation:before {
-  content: open-quote;
-  display: inline;
-  height: 0;
-  line-height: 0;
-  left: -8px;
-  position: relative;
-  color: #000000;
-  top: 30px;
-font-size: 5em;
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -8px;
+    position: relative;
+    color: #000000;
+    top: 30px;
+    font-size: 5em;
 }
 
 footer{
-  margin:0;
-  text-align: right;
-  font-size: 1.2em;
+    margin:0;
+    text-align: right;
+    font-size: 1.2em;
     margin: 0 15px 0 0;
-  font-style: italic;
+    font-style: italic;
 }
 
 .row.footer {
@@ -201,6 +242,6 @@ footer{
 }
 .footer {
     padding-top: 55px;
-height: 200px;
-background: #FFFFFF;
+    height: 200px;
+    background: #FFFFFF;
 }
